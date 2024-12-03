@@ -10114,9 +10114,9 @@ header.in-box {
     height: 400px;
     margin-top: 50px;
   }
-  .serv-box {
+  /* .serv-box {
     padding-top: 90px;
-  }
+  } */
   .serv-box .curve {
     display: none;
   }
