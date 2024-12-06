@@ -10781,9 +10781,11 @@ header.in-box {
   }
 }
 .sub-sub-title{
-  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
   color: white;
-  font-weight: 300;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 /* ====================== [ End Responsive ] ====================== */
