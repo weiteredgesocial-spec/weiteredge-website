@@ -3167,6 +3167,9 @@ body.loaded {
 .navbar .dropdown-menu .dropdown-item:hover:after {
   width: 10px;
 }
+.navbar .dropdown-menu .sub-title:hover:after {
+  width: 10px;
+}
 
 .navbar .no-relative {
   position: static;
@@ -3810,7 +3813,13 @@ body.loaded {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
+  transition: padding-left 0.3s ease;
 }
+
+.sub-title:hover {
+  padding-left: 25px;
+}
+
 
 .sub-font {
   font-family: 'Playfair Display', serif;
@@ -10770,6 +10779,13 @@ header.in-box {
   .approach-carso .swiper-wrapper .swiper-slide {
     margin: auto;
   }
+}
+.sub-sub-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 /* ====================== [ End Responsive ] ====================== */
