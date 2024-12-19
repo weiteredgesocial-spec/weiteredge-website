@@ -66,8 +66,18 @@
 
     <div class="progress-wrap cursor-pointer">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
+            <!-- Define the gradient -->
+            <defs>
+              <linearGradient id="blue-green-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color: #0098D1; stop-opacity: 1;" /> <!-- Blue -->
+                <stop offset="100%" style="stop-color: #68B64A; stop-opacity: 1;" /> <!-- Green -->
+              </linearGradient>
+            </defs>
+        
+            <!-- Apply the gradient to the path -->
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+              style="stroke: url(#blue-green-gradient); stroke-width: 4; fill: none;" />
+          </svg>
     </div>
 
     <!-- ==================== End progress-scroll-button ==================== -->
@@ -265,7 +275,7 @@
                     <div class="swiper-container parallax-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="bg-img valign" data-background="assets/imgs/background/main_bg_img.jpg"
+                                <div class="bg-img valign" data-background="assets/imgs/background/main_bg_new1.jpeg"
                                     data-overlay-dark="7">
                                     <div class="container">
                                         <div class="row justify-content-center">
@@ -299,7 +309,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="bg-img valign" data-background="assets/imgs/background//main_bg_img1.jpg"
+                                <div class="bg-img valign" data-background="assets/imgs/background/main_bg_new2.jpg"
                                     data-overlay-dark="7">
                                     <div class="container">
                                         <div class="row justify-content-center">
@@ -397,7 +407,7 @@
                             <div class="col-lg-4">
                                 <div class="serv-item md-mb50 radius-5 wow fadeIn" data-wow-delay=".5s">
                                     <div class="icon-img-80 mb-10">
-                                        <img src="assets/imgs/serv-icons/Ai.png" alt="">
+                                        <img src="assets/imgs/serv-icons/Artificial Intelligence.png" alt="" style="height: 50px; width: 50px;">
                                     </div>
                                     <span class="mb-10 opacity-7">AI Solutions</span>
                                     <h6 class="mb-15">Artificial Intelligence</h6>
@@ -415,8 +425,8 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="serv-item md-mb50 radius-5 wow fadeIn" data-wow-delay=".8s">
-                                    <div class="icon-img-50 mb-40">
-                                        <img src="assets/imgs/serv-img/1.png" alt="">
+                                    <div class="icon-img-50 mb-10">
+                                        <img src="assets/imgs/serv-icons/Augemented Reality.png" alt="">
                                     </div>
                                     <span class="mb-10 opacity-7">AR Solutions</span>
                                     <h6 class="mb-15">Augmented Reality</h6>
@@ -434,8 +444,8 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="serv-item radius-5 wow fadeIn" data-wow-delay="1.2s">
-                                    <div class="icon-img-50 mb-40 mt-10">
-                                        <img src="assets/imgs/serv-icons/webDev.png" alt="">
+                                    <div class="icon-img-50 mt-10">
+                                        <img src="assets/imgs/serv-icons/Web & Mobile Development.png" alt="" style="height: 50px; width: 50px;">
                                     </div>
                                     <span class="mb-10 opacity-7">Product Development</span>
                                     <h6 class="mb-15">Web & Mobile Development</h6>
@@ -467,7 +477,7 @@
                             <div class="col-lg-6 md-mb50">
                                 <div class="imgs mb-80">
                                     <div class="img1 main-color3 wow fadeIn" data-wow-delay=".3s">
-                                        <img src="assets/imgs/about/about_company_img1.jpg" alt="">
+                                        <img src="assets/imgs/about/Weiter edge-Why choose us1.jpg" alt="">
                                     </div>
                                     <div class="img2 wow fadeInLeft" data-wow-delay=".6s">
                                         <img src="assets/imgs/about//about_company_img2.jpg" alt="">
@@ -553,7 +563,7 @@
 
                 <!-- ==================== Start marq ==================== -->
 
-                <section class="serv-marq main-colorbg3">
+                <section class="serv-marq main-colorbg3" style="background-image: url(assets/imgs/background/Weiter\ edge-Home-Scrolling_grad.png);background-repeat: no-repeat;">
                     <div class="container-fluid rest pt-20 pb-20">
                         <div class="row">
                             <div class="col-12">
