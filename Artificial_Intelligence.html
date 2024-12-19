@@ -65,8 +65,15 @@
 
     <div class="progress-wrap cursor-pointer">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
+            <defs>
+              <linearGradient id="blue-green-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color: #0098D1; stop-opacity: 1;" /> 
+                <stop offset="100%" style="stop-color: #68B64A; stop-opacity: 1;" /> 
+              </linearGradient>
+            </defs>
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+              style="stroke: url(#blue-green-gradient); stroke-width: 4; fill: none;" />
+          </svg>
     </div>
 
     <!-- ==================== End progress-scroll-button ==================== -->
@@ -335,7 +342,7 @@
                 <div class="row">
                     <div class="col-lg-6 md-mb80">
                         <div class="img mb-50">
-                            <img src="assets/imgs/about/03.jpg" alt="">
+                            <img src="assets/imgs/about/ai_about_img.jpg" alt="">
                             <div class="cont-box main-colorbg3">
                                 <span>
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -525,7 +532,7 @@
 
     <section class="call-action-img">
         <div class="container">
-            <div class="sec-bg-img bg-img parallaxie" data-background="assets/imgs/background/about_footer_bg_img.jpg"></div>
+            <div class="sec-bg-img bg-img parallaxie" data-background="assets/imgs/background/ai_footer.jpg"></div>
             <div class="sec-lg-head section-padding">
                 <div class="row ontop">
                     <div class="col-11 d-flex align-items-center">
